@@ -1,7 +1,9 @@
 body {
-    background: rgb(155, 155, 187);
+    background-color: aliceblue;
+    background-image: url(images/L-R\ brain\ \(main\).jpeg);
 }
 
 h1 {
-    color: rgba(241, 34, 235, 0.416);
+    color: rgb(241, 34, 234);
+    background-color: aliceblue;
 }
