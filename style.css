@@ -1,9 +1,40 @@
 body {
-    background-color: aliceblue;
+    background-color: white;
     background-image: url(images/L-R\ brain\ \(main\).jpeg);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
-    color: rgb(241, 34, 234);
-    background-color: aliceblue;
+    margin-left: 5%;
+    color: rgb(39 170 224);
+    background-color: rgba(255, 255, 255, 0.951);
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.951);
+}
+
+* {font-family: 'Times New Roman', Times, serif;}
+
+#navbar {
+    width: 100%;
+    overflow: auto;
+    background-image: url(images/L-R\ Brain\ \(header\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar a {
+    background-color: rgbargba(255, 255, 255, 0.951);
+    float: left;
+    display: block;
+    text-align: center;
+    /* padding: 14px; */
+    /* text-decoration: none;*/
+    font-size: 17px;
+    width: 25%;
 }
