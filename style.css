@@ -2,7 +2,7 @@ body {
     background-color: white;
     background-image: url(images/L-R\ brain\ \(main\).jpeg);
     height:100%;
-    background-position: center;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,19 +22,47 @@ h2 {
 #navbar {
     width: 100%;
     overflow: auto;
+    /*
     background-image: url(images/L-R\ Brain\ \(header\).jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    */
 }
 
 #navbar a {
-    background-color: rgbargba(255, 255, 255, 0.951);
+    background-color: rgba(255, 255, 255, 0.951);
     float: left;
     display: block;
     text-align: center;
     /* padding: 14px; */
     /* text-decoration: none;*/
-    font-size: 17px;
+    font-size: 20px;
     width: 25%;
+}
+
+/*
+#latin {
+    background-color: rgba(255, 255, 255, 0.951);
+}
+*/
+#latin h2 {
+    background-color: rgba(255, 255, 255, 0.951);
+    float: left;
+    display: block;
+    text-align: center;
+    /* padding: 14px; */
+    /* text-decoration: none;*/
+    width: 50%;
+}
+
+#latin table {
+    background-color: rgba(255, 255, 255, 0.951);
+    float: left;
+    display: block;
+    text-align: center;
+    /* padding: 14px; */
+    /* text-decoration: none;*/
+    width: 50%;
+    font-style: italic;
 }
