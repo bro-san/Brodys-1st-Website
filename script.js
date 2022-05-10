@@ -1,6 +1,8 @@
+/*
 const h2 = document.createElement('h2');
-h2.textContent = "This content was added by JavaScript... Sweet!"
-document.querySelector('body').appendChild(h2)
+h2.textContent = "This content was added by JavaScript... Sweet!";
+document.getElementById('firstHeader').appendChild(h2);
+*/
 
 window.onscroll = function() {stickyNavBar()};
 
@@ -14,3 +16,11 @@ function stickyNavBar() {
     navbar.classList.remove("sticky");
   }
 }
+
+const lawSound = document.getElementsByClassName("textLaw");
+
+function testAlert() {
+    alert('It worked!');
+}
+
+lawSound.addEventListener('click', testAlert);
